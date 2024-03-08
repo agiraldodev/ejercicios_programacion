@@ -1,5 +1,4 @@
 // Este es el archivo de arreglos
-
 let nombres = ["Felipe", "Danilo", "Laura"];
 
 console.log(nombres);
