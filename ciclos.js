@@ -48,13 +48,26 @@ for(let i = 0; i <= 9; i++) {
 */
 
 // 1. Mostrar los números desde el 1 hasta el 50
-
+/*
 for(let i = 1; i <= 50; i++) {
     console.log(i);
 }
+*/
 
 // 2. Mostrar los números pares desde el 0 hasta el 20
 
+/*
 for(let i = 0; i <= 10; i++) {
     console.log(i * 2);
+}
+*/
+
+// Tablas de multiplicar del 1 al 10 TODAS
+
+for(let i = 1; i <= 10; i++) {
+    console.log("Tabla de multiplicar del ", i);
+    for(let j = 1; j <= 10; j++) {
+        console.log(i + " x " + j + " = " + (i * j));
+    }
+    console.log("\n");
 }
