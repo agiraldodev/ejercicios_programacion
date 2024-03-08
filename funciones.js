@@ -20,7 +20,7 @@ console.log( saludar("Eduard") );
 console.log( saludar("Daniel") );
 */
 /* Crear una funcion llamada calcularArea que permita
-calcular el área de un triangulo
+calcular el área de un triangulo rectángulo
 
 
 function calcularArea(base, altura) {
@@ -40,7 +40,7 @@ console.log(resultado)
 
 // Escribe una función llamada esFinDeSemana() que tome un parámetro   dia  (del 1 al 7, donde 1 representa el lunes y así hasta el 7 domingo) y devuelva un mensaje si el día es sábado o es domingo
 
-let dia = 5
+
 function esFinDeSemana (dia) {
     if(dia == 6 || dia == 7) {
         console.log("Es fin de semana");
@@ -49,3 +49,5 @@ function esFinDeSemana (dia) {
         console.log("No es fin de semana")
     }
 }
+
+esFinDeSemana(5)
